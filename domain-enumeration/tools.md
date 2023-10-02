@@ -1,0 +1,7 @@
+---
+description: Active Directory Enumeration Tools
+---
+
+# 1⃣ Tools
+
+<table data-card-size="large" data-view="cards" data-full-width="true"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>AD Module</td><td>Video - </td><td>GitHub - <a href="https://github.com/samratashok/ADModule">https://github.com/samratashok/ADModule</a></td><td><a href="https://github.com/samratashok/ADModule">https://github.com/samratashok/ADModule</a></td><td><a href="../.gitbook/assets/Enumeration with AD Module.png">Enumeration with AD Module.png</a></td></tr><tr><td>PowerView</td><td>Video</td><td>GitHub</td><td><a href="https://github.com/ZeroDayLab/PowerSploit/blob/master/Recon/PowerView.ps1">https://github.com/ZeroDayLab/PowerSploit/blob/master/Recon/PowerView.ps1</a></td><td><a href="../.gitbook/assets/Enumeration with PowerView.png">Enumeration with PowerView.png</a></td></tr><tr><td>BloodHound</td><td>Video</td><td>GitHub</td><td><a href="https://github.com/BloodHoundAD/BloodHound">https://github.com/BloodHoundAD/BloodHound</a></td><td><a href="../.gitbook/assets/Enumeration with BloodHound.png">Enumeration with BloodHound.png</a></td></tr><tr><td>SharpView</td><td>Video</td><td>GitHub</td><td><a href="https://github.com/tevora-threat/SharpView/">https://github.com/tevora-threat/SharpView/</a></td><td><a href="../.gitbook/assets/Enumeration with SharpView.png">Enumeration with SharpView.png</a></td></tr></tbody></table>
