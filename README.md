@@ -14,7 +14,7 @@ The CRTP certification is offered by Altered Security, a leading organization in
 
 
 
-<figure><img src=".gitbook/assets/CRTP (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/CRTP (1).png" alt="Certified Red Team Professional"><figcaption></figcaption></figure>
 
 To earn the CRTP certification, candidates must pass a rigorous exam that tests their proficiency in various areas related to red teaming, including network penetration testing, web application penetration testing, social engineering, and physical security testing.&#x20;
 
