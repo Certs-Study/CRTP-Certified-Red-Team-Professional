@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👨🚒 RFS Notes](README.md)
+* [👨🚒 Certified Red Team Professional](README.md)
 * [LAB Access](https://adlab.enterprisesecurity.io/)
 * [🔥 Assume Breach Execution Cycle](assume-breach-execution-cycle.md)
 
