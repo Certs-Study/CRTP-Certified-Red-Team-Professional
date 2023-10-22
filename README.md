@@ -20,11 +20,7 @@ To earn the CRTP certification, candidates must pass a rigorous exam that tests 
 
 The exam is designed to simulate real-world scenarios and requires candidates to demonstrate their ability to identify vulnerabilities, exploit them, and document their findings in a clear and concise manner.
 
-
-
-```
-<div id="container-6d6b08eb5f03b50442773d81da120b35"></div>
-```
+{% embed url="https://cli-ck.me/htb-pro-labs" %}
 
 {% embed url="https://www.alteredsecurity.com/adlab" %}
 
