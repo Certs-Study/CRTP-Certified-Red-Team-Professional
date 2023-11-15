@@ -1,5 +1,5 @@
 ---
-layout: editorial
+coverY: 0
 ---
 
 # Thinking
