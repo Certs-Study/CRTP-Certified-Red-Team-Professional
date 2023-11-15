@@ -3,18 +3,30 @@ description: >-
   Welcome to RFS notes to CRTP - Certified Red Team Professional by Altered
   Security.
 cover: .gitbook/assets/CRTP.png
-coverY: 63.39555863983345
+coverY: -15.761774693499873
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # 👨🚒 Certified Red Team Professional
 
 The Certified Red Team Professional (CRTP) certification is an advanced certification designed to validate the skills and knowledge of experienced professionals in the field of offensive security.
 
-The CRTP certification is offered by Altered Security, a leading organization in the information security industry that provides training, certifications, and services related to offensive security.
-
-
-
 <figure><img src=".gitbook/assets/CRTP (1).png" alt="Certified Red Team Professional"><figcaption></figcaption></figure>
+
+The CRTP certification is offered by Altered Security, a leading organization in the information security industry that provides training, certifications, and services related to offensive security.
 
 To earn the CRTP certification, candidates must pass a rigorous exam that tests their proficiency in various areas related to red teaming, including network penetration testing, web application penetration testing, social engineering, and physical security testing.&#x20;
 
