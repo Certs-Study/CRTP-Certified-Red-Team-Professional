@@ -49,7 +49,7 @@
 
 * [🔥 Golden tickets](domain-persistence/golden-tickets.md)
 * [🥈 Silver Tickets](domain-persistence/silver-tickets.md)
-* [💎 Diamond Ticket](domain-persistence/diamond-ticket.md)
+* [💎 Diamond Tickets](domain-persistence/diamond-tickets.md)
 * [🚒 Skeleton Keys](domain-persistence/skeleton-keys.md)
 * [DSRM](domain-persistence/dsrm.md)
 * [Custom SSP - Track logons](domain-persistence/custom-ssp-track-logons.md)

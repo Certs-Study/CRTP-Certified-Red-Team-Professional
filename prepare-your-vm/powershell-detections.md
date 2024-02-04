@@ -1,5 +1,8 @@
 ---
-description: CRTP LAB PowerShell Detections
+description: >-
+  Discover the intricacies of CRTP PowerShell Detections in our in-depth
+  article. Learn about its importance, applications, and methodologies for
+  effective cybersecurity management.
 cover: ../.gitbook/assets/RFS (2).png
 coverY: 0
 ---
@@ -26,9 +29,13 @@ RunWithRegistryNonAdmin.bat
 
 ### System-Wide Transcription
 
-### Script Block Logging
+#### Script Block Logging
+
+Disable script block logging to prevent PowerShell from recording potentially sensitive scripts as they are executed. This can be done through group policy settings or registry modifications.
 
 ### AntiMalaware Scan Interface - AMSI
+
+The provided script snippet is designed to bypass AMSI, which could allow malicious scripts to execute without being scanned and potentially detected by AMSI. Users should execute this with extreme caution, as it lowers your system's defenses against malware.
 
 {% code overflow="wrap" %}
 ```
@@ -38,9 +45,13 @@ S`eT-It`em ( 'V'+'aR' +  'IA' + ('blE:1'+'q2')  + ('uZ'+'x')  ) ( [TYpE](  "{1}{
 
 ### Constrained Language Mode - CLM
 
+To work around CLM:
 
+1. Use AMSITrigger to identify which parts of your script are detected by AMSI.
+2. Modify these parts and test again with AMSITrigger.
+3. Continue this process until your script is no longer detected by AMSI.
 
-Steps to avoid signature based detection are pretty simple:&#x20;
+The steps to avoid signature-based detection are pretty simple:&#x20;
 
 1\) Scan using AMSITrigger&#x20;
 
@@ -52,3 +63,24 @@ Steps to avoid signature based detection are pretty simple:&#x20;
 
 ### Tamper Protection
 
+Tamper Protection is a feature that prevents unauthorized changes to key security features, including disabling script block logging and system-wide transcription settings. To bypass Tamper Protection:
+
+1. Carefully modify security settings with appropriate administrative credentials.
+2. Employ sophisticated methods to alter or add registry keys related to Tamper Protection.
+3. Monitor changes and revert any suspicious modifications by unauthorized processes.
+4. Ensure continuous validation of the integrity and authenticity of security-related configurations.
+
+Please note, that bypassing Tamper Protection can make your system vulnerable to attacks and should only be done by experienced individuals or for educational purposes in a controlled environment.
+
+#### Testing with AMSITrigger:
+
+To effectively test your changes without triggering the AMSI:
+
+1. Run `AMSITrigger` to test the initial script or command.
+2. Based on the feedback, modify the flagged code segments to avoid AMSI detection.
+3. Re-run `AMSITrigger` to verify that the changes are sufficient.
+4. If detection still occurs, repeat the modification process until an undetected state is achieved.
+
+#### Final Notes
+
+Always ensure that you have proper authorization before attempting to adjust or bypass security features. Unauthorized tampering with security settings is illegal and unethical and could lead to severe consequences.

