@@ -38,3 +38,5 @@ Upon starting the CRTP Lab's challenge, a low-level user account is already comp
 Using only native tools and resources, our task is to escalate privileges within the Active Directory environment. This environment mimics real-world networks, requiring careful maneuvering and a deep understanding of AD
 
 {% embed url="https://digitalocean.pxf.io/c/3259613/1373783/15890" %}
+
+{% embed url="https://cli-ck.me/buy-nessus" %}
