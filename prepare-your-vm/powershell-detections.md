@@ -13,6 +13,12 @@ coverY: 0
 https://github.com/OmerYa/Invisi-Shell
 ```
 
+{% hint style="warning" %}
+```
+Contact me on LinkedIn : https://cli-ck.me/rfs
+```
+{% endhint %}
+
 ### Using Invisi Shell
 
 With admin privileges:

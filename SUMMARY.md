@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👨🚒 Certified Red Team Professional](README.md)
+* [👨‍🚒 Certified Red Team Professional](README.md)
 * [LAB Access](https://adlab.enterprisesecurity.io/)
 * [🔥 Assume Breach Execution Cycle](assume-breach-execution-cycle.md)
 
@@ -20,15 +20,15 @@
 
 ## Domain Enumeration
 
-* [1⃣ Tools](domain-enumeration/tools.md)
-* [2⃣ Domain Enumeration](domain-enumeration/domain-enumeration.md)
-* [3⃣ Users, Groups, Computers  Enumeration](domain-enumeration/users-groups-computers-enumeration.md)
-* [4⃣ Shares  Enumeration](domain-enumeration/shares-enumeration.md)
-* [5⃣ GPO  Enumeration](domain-enumeration/gpo-enumeration.md)
-* [6⃣ ACLs  Enumeration](domain-enumeration/acls-enumeration.md)
-* [7⃣ Domain Trusts](domain-enumeration/domain-trusts.md)
+* [1️⃣ Tools](domain-enumeration/tools.md)
+* [2️⃣ Domain Enumeration](domain-enumeration/domain-enumeration.md)
+* [3️⃣ Users, Groups, Computers  Enumeration](domain-enumeration/users-groups-computers-enumeration.md)
+* [4️⃣ Shares  Enumeration](domain-enumeration/shares-enumeration.md)
+* [5️⃣ GPO  Enumeration](domain-enumeration/gpo-enumeration.md)
+* [6️⃣ ACLs  Enumeration](domain-enumeration/acls-enumeration.md)
+* [7️⃣ Domain Trusts](domain-enumeration/domain-trusts.md)
 * [Domain Forests](domain-enumeration/domain-forests.md)
-* [9⃣ Miscellaneous Enumeration](domain-enumeration/miscellaneous-enumeration.md)
+* [9️⃣ Miscellaneous Enumeration](domain-enumeration/miscellaneous-enumeration.md)
 * [User Hunting](domain-enumeration/user-hunting.md)
 
 ## Local Privilege Escalation
@@ -54,11 +54,11 @@
 * [DSRM](domain-persistence/dsrm.md)
 * [Custom SSP - Track logons](domain-persistence/custom-ssp-track-logons.md)
 * [ACLs](domain-persistence/acls/README.md)
-  * [1⃣ AdminSDHolder](domain-persistence/acls/adminsdholder.md)
-  * [2⃣ DCsync](domain-persistence/acls/dcsync.md)
-  * [3⃣ WMI](domain-persistence/acls/wmi.md)
-  * [4⃣ Remote Powershell](domain-persistence/acls/remote-powershell.md)
-  * [5⃣ Remote Registry](domain-persistence/acls/remote-registry.md)
+  * [1️⃣ AdminSDHolder](domain-persistence/acls/adminsdholder.md)
+  * [2️⃣ DCsync](domain-persistence/acls/dcsync.md)
+  * [3️⃣ WMI](domain-persistence/acls/wmi.md)
+  * [4️⃣ Remote Powershell](domain-persistence/acls/remote-powershell.md)
+  * [5️⃣ Remote Registry](domain-persistence/acls/remote-registry.md)
 
 ## Domain Privilege Escalation
 
